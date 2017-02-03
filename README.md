@@ -2,7 +2,7 @@
 
 ## Key requirement: company needs documentation that salaried employees did or did not get overtime each week
 
-## Models
+## Models:
 
 - x Post -> data:date rationale:text
 - x User -> Devise
@@ -16,9 +16,11 @@
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 
-## UI
+## UI:
 
 - x Bootstrap -> formatting
+- Icons from Font Awesome
+- Update the styles for forms
 
 ## Refactor TODOS:
 
