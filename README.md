@@ -20,7 +20,7 @@
 
 - x Bootstrap -> formatting
 - Icons from Font Awesome
-- Update the styles for forms
+- x Update the styles for forms
 
 ## Refactor TODOS:
 
