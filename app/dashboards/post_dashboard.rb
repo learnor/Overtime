@@ -14,6 +14,7 @@ class PostDashboard < Administrate::BaseDashboard
     rationale: Field::Text.with_options(searchable: true),
     created_at: Field::DateTime,
     updated_at: Field::DateTime,
+    status: Field::String.with_options(searchable: ),
   }.freeze
 
   # COLLECTION_ATTRIBUTES
@@ -23,7 +24,7 @@ class PostDashboard < Administrate::BaseDashboard
   # Feel free to add, remove, or rearrange items.
   COLLECTION_ATTRIBUTES = [
     :user,
-    :id,
+    :status,
     :date,
     :rationale,
   ].freeze
@@ -34,6 +35,7 @@ class PostDashboard < Administrate::BaseDashboard
     :user,
     :id,
     :date,
+    :status,
     :rationale,
     :created_at,
     :updated_at,
